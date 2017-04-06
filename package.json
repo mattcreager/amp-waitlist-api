@@ -1,0 +1,24 @@
+{
+  "name": "jawsdb-waitlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "torus run node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "analytics-node": "^2.1.1",
+    "analytics.js": "^2.9.1",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "express-formidable": "^1.0.0",
+    "express-json": "^1.0.0",
+    "lodash": "^4.17.4",
+    "query-string": "^4.3.2",
+    "torus-cli": "^0.22.0",
+    "wildcard": "^1.1.2"
+  }
+}
